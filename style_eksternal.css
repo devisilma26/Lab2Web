@@ -1,0 +1,15 @@
+nav{
+    background: #ff006e ; 
+    color: #fff;
+    padding: 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav .active,
+nav a:hover{
+    background: #a4133c;
+    border-radius: 4px;
+}

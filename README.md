@@ -87,4 +87,27 @@ ini adalah contoh CSS inline,css inline adlah prioritas dalam pendeklarasian jik
 
 ```
 
+## MEMBUAT CSS EKSTERNAL
+### CONTOH CODE DAN HASILNYA
+![menambahkan_css_eksternal](img/eksternal_css.png)
 
+css eksternal adalah css yang dimana filenya terpisah dengan html itu sendiri dengan melalui link penempatan css, css eksternal mampu digunakan banyak file html itulah keunggulan dari ccs eksternal
+
+## CODE
+```css 
+nav{
+    background: #ff006e ; 
+    color: #fff;
+    padding: 15px;
+}
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+nav .active,
+nav a:hover{
+    background: #a4133c;
+    border-radius: 4px;
+}
+```
