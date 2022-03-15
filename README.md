@@ -87,7 +87,7 @@ ini adalah contoh CSS inline,css inline adlah prioritas dalam pendeklarasian jik
 
 ```
 
-## MEMBUAT CSS EKSTERNAL
+## 4). MEMBUAT CSS EKSTERNAL
 ### CONTOH CODE DAN HASILNYA
 ![menambahkan_css_eksternal](img/eksternal_css.png)
 
@@ -109,5 +109,40 @@ nav .active,
 nav a:hover{
     background: #a4133c;
     border-radius: 4px;
+}
+```
+## 5). MENAMBAHKAN CSS SELECTOR
+### CONTOH CODE DAN HASILNYA
+![menambahkan_css_selector](img/css_selector.png)
+
+css selector adalah pemilihan dengan menggunakan id atau class dan bisa juga selector pada tag dan element html id menggunakan code yang dimana didalam file css menggunakan (#) sedangkan class menggunakan code yang ketika di css pendeklarasiannya yaitu (.) sedangkan selector element atau tag pendeklarasiannya (p) atau element lainnya
+
+## contoh code 
+```css
+/* ID SELECTOR */
+#intro{
+    background: #fed9b7;
+    border: 1px solid #f94144;
+    min-height: 100px;
+    padding: 10px;
+}
+#intro h1{
+    text-align: left;
+    border: 0;
+    color: #f25c54;
+}
+/* class selector */
+.btn{
+
+    padding: 15px 20px;
+    background: #edc4b3;
+    color: #f20089;
+    display: inline-block;
+    margin: 10px;
+    text-decoration: none;
+}
+.btn-primary{
+    background: #f25c54;
+    
 }
 ```
