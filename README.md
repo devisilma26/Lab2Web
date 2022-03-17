@@ -146,3 +146,48 @@ css selector adalah pemilihan dengan menggunakan id atau class dan bisa juga sel
     
 }
 ```
+
+
+## PERTANYAAN DAN TUGAS
+
+## 1). Lakukan eksperimen dengan mengubah dan menambah properti dan nilai pada kode CSS dengan mengacu pada CSS Cheat Sheet yang diberikan pada file terpisah dari modul ini.
+
+---------------------------------------------------------------------------------------------------------------------------
+
+**JAWABAN**
+
+![no1](img/no1.png)
+
+disitu saya menambahkan hover pada nav a agar ketika cursor mengarah akan terdapat warna yang berbeda dan saya juga menambahkan border radius 4px agar terlihat lebih menarik.
+
+```css
+nav .active,
+nav a:hover{
+    background: #a4133c;
+    border-radius: 4px;
+}
+``` 
+
+## 2). Apa perbedaan pendeklarasian CSS elemen h1 {...} dengan #intro h1 {...}? berikan penjelasannya!
+
+------------------------------------------------------------------------------
+
+**JAWABAN**
+
+jadi jika hanya css element h1 saja berarti pendeklarasian h1 akan diberi gaya semua pada css sedangkan jika #intro h1 hanya pada #intro h1 saja yang akan diberi gaya pada css karena itu adalah ID yang bersifat unik hanya file atau element yang terdapat ID saja yang akan dideklasikan di css.
+
+## 3). Apabila ada deklarasi CSS secara internal, lalu ditambahkan CSS eksternal dan inline CSS pada elemen yang sama. Deklarasi manakah yang akan ditampilkan pada browser? Berikan penjelasan dan contohnya!
+
+-----------------------------------------------------------------------------
+
+**JAWABAN**
+
+ketika kita mendeklarasikan secara bersamaaan antara internal, eksternal, dan inline yang tepanggil dibrowser adalah inline, disitu saya memiliki deklarasi dengan properti color, di internal color yang saya gunakan berwarna orange sementara di inline berwarna aqua, dan di eksternal berwarna red namun yang terpanggil yaitu inline dengan warna aqua karena inline memiliki proritas tertinggi. 
+
+![no3](img/no3(1).png)
+**diatas adalah deklarasi inline dan internal sementara foto dibawah deklarasi eksternal**
+![no3](img/n03-.png).
+
+jadi yang terpanggil adalah css inline
+
+
